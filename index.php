@@ -1,6 +1,10 @@
 <?php 
   include "./includes/class-autoload.inc.php";
   require_once("./templates/header.php");
+
+  // echo $_SERVER["DOCUMENT_ROOT"];
+  // error_reporting( E_ALL );
+  // ini_set( 'display_errors', 1 );
 ?>
 <div class="text-center">
   <button class="my-5 btn btn-primary" data-toggle="modal" data-target="#addPostModal">Craete Post</button>

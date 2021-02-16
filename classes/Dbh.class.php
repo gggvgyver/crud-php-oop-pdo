@@ -2,8 +2,8 @@
 
 class Dbh {
   private $host = "localhost";
-  private $user = "can";
-  private $pwd = "admin";
+  private $user = "test";
+  private $pwd = "test";
   private $dbName = "oopblog";
 
   public function connect() {
