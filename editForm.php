@@ -13,26 +13,26 @@
 ?>
 
   <div class="text-center my-5">
-    <h3>Edit post</h3>
+    <h3>수정</h3>
   </div>
   <div class="row">
     <div class="col-md-7 mx-auto">
       <!-- form input -->
       <form method="POST" action="post.process.php?send=update&id=<?= $id ?>">
         <div class="form-group">
-          <label>Title: </label>
+          <label>제목: </label>
           <input class="form-control" name="post-title" type="text" value="<?= $title ?>" required>
         </div>
         <div class="form-group">
-          <label>Content: </label>
+          <label>내용: </label>
           <textarea class="form-control"  name="post-content" rows="8" required><?= $body ?></textarea>
         </div>
         <div class="form-group">
-          <label>Author: </label>
+          <label>작성자: </label>
           <input class="form-control" name="post-author" type="text" value="<?= $author ?>" required>
         </div>
-          <a href="index.php" class="btn btn-secondary">Close</a>
-          <button type="submit" class="btn btn-primary">Update post</button>
+          <a href="index.php" class="btn btn-secondary">닫기</a>
+          <button type="submit" class="btn btn-primary">수정</button>
       </form>
     </div>
   </div>

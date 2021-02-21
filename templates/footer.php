@@ -1,4 +1,7 @@
 </div>
+<!-- <a href="post.process.php?send=pagination&interval=3 class=btn btn-danger">다음</a> -->
+
+<!-- SELECT * FROM posts ORDER BY date_created desc LIMIT 0,3 -->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

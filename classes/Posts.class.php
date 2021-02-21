@@ -2,7 +2,7 @@
 
 class Posts extends Dbh {
   public function getPost() {
-    $sql = "SELECT * FROM posts";
+    $sql = "SELECT * FROM posts ORDER BY date_created desc";
     $stmt = $this->connect()->prepare($sql);
     $stmt->execute();
 
